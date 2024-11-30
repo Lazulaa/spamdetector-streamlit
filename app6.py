@@ -25,6 +25,7 @@ import seaborn as sns
 import pickle
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 stop_words = stopwords.words('english')
 
